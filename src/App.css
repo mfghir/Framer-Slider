@@ -1,0 +1,27 @@
+h1{
+  margin-bottom: 20px;
+  color: #6f86d6;
+}
+
+.carousel{
+  cursor: grab;
+  overflow: hidden;
+  background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
+border-radius: 10px;
+} 
+
+.inner-carousel{
+  display: flex;
+}
+
+.item{
+  min-height: 30rem;
+  min-width: 20rem;
+  padding: 40px;
+}
+.item img{
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  pointer-events: none;
+}
