@@ -1,3 +1,4 @@
+
 h1{
   margin-bottom: 20px;
   color: #6f86d6;
@@ -7,7 +8,7 @@ h1{
   cursor: grab;
   overflow: hidden;
   background-image: linear-gradient(to top, #48c6ef 0%, #6f86d6 100%);
-border-radius: 10px;
+  border-radius: 10px;
 } 
 
 .inner-carousel{

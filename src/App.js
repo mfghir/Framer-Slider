@@ -1,7 +1,7 @@
-import { motion } from "framer-motion";
 import { useEffect, useRef, useState } from "react";
-import "./App.css";
+import { motion } from "framer-motion";
 import images from "./images";
+import "./App.css";
 
 function App() {
   const [width, setWidth] = useState(0);
@@ -14,7 +14,6 @@ function App() {
   return (
     <div className="App">
       <motion.h1
-        // animate={{ x: 250 }}
         initial={{ x: -250, scale: 0 }}
         animate={{ x: 0, scale: 1 }}
         transition={{
